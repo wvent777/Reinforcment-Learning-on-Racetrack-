@@ -1,0 +1,20 @@
+1. Demonstrate one sweep of the value iteration algorithm
+    showing the “V ” values being updated for the track.
+
+2. Demonstrate the “Q” values being updated along one sequence generated during Q-learning
+3. Demonstrate the “Q” values being updated along one sequence generated during SARSA.
+
+
+4. Demonstrate the exploration function of your learning algorithm,
+showing cases where both a current optimal action is selected and where a random action is selected.
+Note that this is different from demonstrating the nondeterminism of the simulator.
+
+5. Demonstrate the generation of a path of state,action,state
+triples of your vehicle at the end of learning on one track for each of the three algorithms.
+Highlight a point where the nondeterministic response to an action occurs along that path.
+
+6. Demonstrate the “restart” behavior for each of the two scenarios when the car collides with the wall.
+If you wish, this can be done as part of the path generation demonstration above.
+
+7. Demonstrate your clipping algorithm for detecting when a car collides or intersects with the boundary of the track.
+If you wish, this can be done as part of demonstrating the “restart” behavior, since restarting involves responding to a collision.
